@@ -1,0 +1,30 @@
+!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initialscale=1.0">
+    <title>lab 9</title>
+</head>
+
+<body>
+    <form action="https://api.sheetmonkey.io/form/6Npfk6JMW67ssziY8EberM" method="post">
+        <h2>Tela de Cadastro:</h2>
+        <label for="Endereço">Endereço: </label>
+        <input type="text" name="Endereço" id="Endereço" placeholder="Endereço">
+        <label for="CPF">CPF: </label>
+        <input type="text" name="CPF" id="CPF" placeholder="CPF">
+        <label for="Nome">Nome: </label>
+        <input type="text" name="Nome" id="nome" pattern="[A-Za-z\s]+$" title="Digite apenas letras" placeholder="Nome">
+        <label for="Email">E-mail: </label>
+        <input type="email" name="E-mail" id="email" placeholder="Email">
+        <label for="Telefone">Telefone: </label>
+        <input type="tel" name="Telefone" id="phone" placeholder="Telefone" />
+        <input type="submit" value="Enviar" />
+    </form>
+</body>
+
+</html>
